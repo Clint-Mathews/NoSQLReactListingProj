@@ -9,3 +9,12 @@ BE side: yarn run start:back
 React,
 Express,
 Astra NoSQL DB 
+
+## Env update needed
+For the Application to work you need to create a local .env file and add Three keys :
+<br />
+ENDPOINT - which is the url endpoint to document api from Astra
+<br />
+ASTRA_TOKEN - token generated for the API call to work
+<br />
+REACT_APP_PORT - port to run the server
