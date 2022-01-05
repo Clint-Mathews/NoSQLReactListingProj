@@ -1,6 +1,6 @@
 # Movie List (Mobile View Only)
 
-Listing of restaurants using nosql db - casandra and react + express for FE and BE.
+Listing of restaurants using Astra NoSQL DB and react + express for FE and BE.
 
 To Run the project  : 
 FE side : yarn start:front
