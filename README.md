@@ -18,3 +18,6 @@ ENDPOINT - which is the url endpoint to document api from Astra
 ASTRA_TOKEN - token generated for the API call to work
 <br />
 REACT_APP_PORT - port to run the server
+<br />
+<br />
+DocumentAPI is being used for API calls to make this work you will need to create a Database and schema in Astra. Create a collection and add hotel documents against it using swagger from the doucment API in Astra.
