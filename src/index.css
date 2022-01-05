@@ -1,13 +1,47 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid whitesmoke;
+  border-radius: 50px;
+  margin: 20px 20px;
+  padding: 20px 0;
+}
+.places {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.showVisit {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.visited {
+  background-color: lightyellow;
+}
+.notvisited {
+  background-color: red;
 }
