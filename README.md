@@ -1,4 +1,4 @@
-# Movie List (Mobile View Only)
+# Restaurant Listing
 
 Listing of restaurants using Astra NoSQL DB and react + express for FE and BE.
 
