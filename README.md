@@ -6,6 +6,6 @@ To Run the project  :
 FE side : yarn start:front
 BE side: yarn run start:back
 ## Tech Stack
-React
-Express
+React,
+Express,
 Astra NoSQL DB 
